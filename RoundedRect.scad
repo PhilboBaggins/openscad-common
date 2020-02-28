@@ -17,7 +17,7 @@ module RoundedRect2D(size, cornerRadius)
     }
 }
 
-module RoundedRect2D(size, cornerRadius, height)
+module RoundedRect3D(size, cornerRadius, height)
 {
     linear_extrude(height)
     RoundedRect2D(size, cornerRadius);
